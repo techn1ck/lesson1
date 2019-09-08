@@ -6,7 +6,12 @@ print(get_summ("Learn", "Python", " - "))
 
 
 def format_price (price):
-    price = abs(int(price))
-    return f'Price {price}$'
+    try:
+        #price = float(price)
+        price = abs(int(float(price)))
+        return f'Price {price}$'
+    except ValueError:
+        return 'неверный формат данных'
 
-print(format_price(56.24))
+name = input("Введите цену: ")
+print(format_price(name))
