@@ -5,6 +5,7 @@ def get_summ (one, two, delimiter='&'):
 print(get_summ("Learn", "Python", " - "))
 
 
+
 def format_price (price):
     try:
         #price = float(price)
