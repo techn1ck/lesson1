@@ -30,8 +30,13 @@ print(frase)
 
 """
 
-print(float('1'))
-print(int(2.7))
-print(bool(1))
-print(bool(''))
-print(bool(0))
+
+a = 0.1
+print(a + 0.2)
+
+
+#print(float('1'))
+#print(int(2.7))
+#print(bool(1))
+#print(bool(''))
+#print(bool(0))
